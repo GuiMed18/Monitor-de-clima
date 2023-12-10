@@ -28,7 +28,7 @@ cond_climatica = str(info['weather'][0]['description'])
 vel_vento = str(info['wind']['speed'])
 umid_ar = str(info['main']['humidity'])
 
-print(' ')
+print(' gg')
 print('Está fazendo '+temp_atual+' graus em '+ cidade +', '+pais)
 print('Hoje, a mínima é de '+temp_minima+' já a máxima é de '+temp_maxima)
 print('O Vento está há '+vel_vento+'Km/h e a umidade do ar é de '+umid_ar+'%')
